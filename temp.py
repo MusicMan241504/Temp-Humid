@@ -31,7 +31,6 @@ def loop():
         while True:
             now = datetime.now()
             time = datetime.strftime(now,'%H:%M')
-            pre_time = 0
             if time != pre_time:
                 pre_time = time
                 temp1 = get_temp(0)
