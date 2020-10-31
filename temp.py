@@ -3,7 +3,6 @@ import time
 import csv
 import math
 from datetime import datetime
-pin = 11
 from ADCDevice import *
 adc = ADCDevice()
 dht = Adafruit_DHT.DHT11
